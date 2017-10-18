@@ -2,8 +2,17 @@ package com.fantasykai.java.performance;
 
 import java.util.BitSet;
 
+
+/**
+ * The type Sieve.
+ */
 public class Sieve {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
         int n = 2000000;

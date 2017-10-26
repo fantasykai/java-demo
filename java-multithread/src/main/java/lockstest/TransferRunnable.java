@@ -7,7 +7,8 @@ public class TransferRunnable implements Runnable {
     private int fromAccount;
     private double maxAmout;
     private int DELAY = 10; // 延迟
-    private Bank bank;
+    //    private Bank bank;
+    private BankSync bank;
 
     /**
      * Instantiates a new Transfer runnable.
@@ -16,7 +17,7 @@ public class TransferRunnable implements Runnable {
      * @param fromAccount the from account
      * @param maxAmout    the max amout
      */
-    public TransferRunnable(Bank bank, int fromAccount, double maxAmout) {
+    public TransferRunnable(BankSync bank, int fromAccount, double maxAmout) {
         this.fromAccount = fromAccount;
         this.maxAmout = maxAmout;
         this.bank = bank;

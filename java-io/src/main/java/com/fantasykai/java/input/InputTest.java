@@ -1,4 +1,4 @@
-package com.fantasykai.java.com.fantasykai.java.input;
+package com.fantasykai.java.input;
 
 import java.util.Scanner;
 

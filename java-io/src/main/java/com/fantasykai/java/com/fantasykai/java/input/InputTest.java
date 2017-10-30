@@ -16,14 +16,14 @@ public class InputTest {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println(" What is your name? ");
+        System.out.println(" 您的姓名 ");
         String name = in.nextLine();
 
-        System.out.println(" How old are you? ");
+        System.out.println(" 您的工号 ");
 
-        int age = in.nextInt();
+        int jobNumber = in.nextInt();
 
-        System.out.println(" Hello," + name + ". Next year, you'll be " + (age + 1));
+        System.out.println(" 您好,工号为 " + jobNumber + " 的 " + name + "，（先生／女士），这是您的证件");
 
     }
 

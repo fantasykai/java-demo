@@ -2,9 +2,17 @@ package com.fantasykai.java.base;
 
 import java.util.Scanner;
 
+/**
+ * The type Lottery odds.
+ */
 public class LotteryOdds {
 
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

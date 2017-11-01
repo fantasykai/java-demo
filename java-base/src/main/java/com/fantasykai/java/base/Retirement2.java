@@ -2,8 +2,16 @@ package com.fantasykai.java.base;
 
 import java.util.Scanner;
 
+/**
+ * The type Retirement 2.
+ */
 public class Retirement2 {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
